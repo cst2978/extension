@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Related Ad Listings Viewer",
+  "version": "1.0",
+  "description": "Extracts Ad ID from listing URL and displays recommended related listings from internal API.",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": [
+    "*://*.rvtrader.com/*",
+    "https://dev.apis.datascience.tilabs.io/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
+  }
+}
